@@ -1,300 +1,564 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
+    <title>Home</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
 
-  <title>GALE - STUDIO</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <!-- //Fonts -->
 
 </head>
 
-<body id="page-top">
+<body>
+    <!-- mian-content -->
+    <div class="main-content" id="home">
+        <div class="layer">
+            <!-- header -->
+            <header class="header">
+                <div class="container-fluid px-lg-5">
+                    <!-- nav -->
+                    <nav class="py-4">
+                        <div class="logo-w3layouts" id="logo-w3layouts">
+                            <a href="index.html"><span class="fa fa-magnet" aria-hidden="true"></span></a>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Clarence Taylor</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Gale-Studio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#game">游戏开发</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">技能</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#tools">工具</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">兴趣爱好</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">奖项荣誉</a>
-        </li>
-      </ul>
+                        </div>
+
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop" />
+                        <ul class="menu mt-2">
+                            <li class="mr-lg-4 mr-3 active"><a href="#">Home</a></li>
+                            <li class="mr-lg-4 mr-3"><a href="#about" class="scroll">About</a></li>
+                            <li class="mr-lg-4 mr-3"><a href="#services" class="scroll">Services</a></li>
+                            <li class="mr-lg-4 mr-3"><a href="#experience" class="scroll">Experience</a></li>
+                            <li class="mr-lg-4 mr-3">
+                                <!-- First Tier Drop Down -->
+                                <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                                <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                <input type="checkbox" id="drop-2" />
+                                <ul>
+                                    <li><a href="#blog" class="scroll">Blogs</a></li>
+                                    <li><a href="#gallery" class="scroll">Projects</a></li>
+                                    <li><a href="#testimonials" class="scroll">Clients</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#contact" class="scroll">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <!-- //nav -->
+                </div>
+            </header>
+            <!-- //header -->
+
+            <!-- banner -->
+            <div class="banner-info-w3ls">
+                <h1>Most Wanted It Girl Look
+                </h1>
+                <a href="#about" class="scroll">
+                    <div class="icon-scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                        <div class="icon-arrows">
+                            <span></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- //banner -->
+        </div>
     </div>
-  </nav>
+    <!--// mian-content -->
+    <!-- about -->
+    <section class="about py-5" id="about">
+        <div class="container py-3">
+            <h3 class="title text-center text-white"><span class="ab">Some Info</span> About Me</h3>
+            <div class="about-grids mt-lg-5 mt-4 text-center">
+                <p class="main_p mb-5  text-center mx-auto">Integer porttitor mollisar lorem, at molestie arcu pulvinar ut.</p>
+                <h2 class="main_head">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem. </h2>
+                <p class="main_p2 mt-4 mb-4 pt-2 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum Proin ac </p>
+                <div class="whsat_bt text-center mx-auto">
+                    <a href="#gallery" class="text-capitalize mr-2 work btn scroll">My Projects <span class="fa fa-photo" aria-hidden="true"></span></a>
+                </div>
 
-  <div class="container-fluid p-0">
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+    <!-- services -->
+    <section class="slide-wrapper py-5" id="services">
+        <div class="container py-lg-5">
+            <h6 class="intr ser mx-auto">MY DETAILS</h6>
+            <img src="images/banner2.jpg" class="img-fluid" alt="">
+            <div class="text-center">
+                <h3 class="main_head1 mt-4">Integer porttitor mollisar </h3>
+                <p class="main_p3 mt-4 mb-4 text-center mx-auto"> Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. </p>
+            </div>
+            <div class="services">
+                <div class="row service_w3top mt-5">
+                    <div class="col-lg-6 ser-lt">
+                        <div class="d-flex services-box">
+                            <div class="ser-icon">
+                                <span class="fa fa-comment"></span>
+                            </div>
+                            <!-- .Icon ends here -->
+                            <div class="service-content">
+                                <h2>Inagittis Lacg</h2>
+                                <p class="serp">
+                                    Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                </p>
+                            </div>
+                            <!-- .Service-content ends here -->
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Gale
-          <span class="text-primary">Studio</span>
-        </h1>
-        <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-          <a href="mailto:ghost_h@foxmail.com">ghost_h@foxmail.com</a>
+                        </div>
+                        <!-- .Services-box ends here -->
+
+                        <div class="d-flex services-box ser-midd">
+                            <div class="ser-icon">
+                                <span class="fa fa-image"></span>
+                            </div>
+                            <!-- .Icon ends here -->
+                            <div class="service-content">
+                                <h4>Velitdipisc Inagittis</h4>
+                                <p class="serp">
+                                    Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                </p>
+                            </div>
+                            <!-- .Service-content ends here -->
+                        </div>
+                        <!-- .Services-box ends here -->
+                        <!-- .Services-box ends here -->
+
+                        <div class="d-flex services-box bx-4">
+                            <div class="ser-icon">
+                                <span class="fa fa-wrench"></span>
+                            </div>
+                            <!-- .Icon ends here -->
+                            <div class="service-content">
+                                <h4>Sagittis Lacus</h4>
+                                <p class="serp">
+                                    Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                </p>
+                            </div>
+                            <!-- .Service-content ends here -->
+                        </div>
+                        <!-- .Services-box ends here -->
+                    </div>
+                    <!-- .Col ends here -->
+                    <div class="col-lg-6 ser-rgt">
+                        <div class="d-flex services-box bx-1">
+                            <div class="ser-icon">
+                                <span class="fa fa-refresh"></span>
+                            </div>
+                            <!-- .Icon ends here -->
+                            <div class="service-content">
+                                <h4>Vulputate Velitdipisc</h4>
+                                <p class="serp">
+                                    Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                </p>
+                            </div>
+                            <!-- .Service-content ends here -->
+                        </div>
+                        <!-- .Services-box ends here -->
+
+                        <div class="d-flex services-box ser-midd bx-2">
+                            <div class="ser-icon">
+                                <span class="fa fa-cog"></span>
+                            </div>
+                            <!-- .Icon ends here -->
+                            <div class="service-content">
+                                <h4>Sagittis Lacus</h4>
+                                <p class="serp">
+                                    Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                </p>
+                            </div>
+                            <!-- .Service-content ends here -->
+                        </div>
+                        <!-- .Services-box ends here -->
+                        <!-- .Services-box ends here -->
+
+                        <div class="d-flex services-box bx-3">
+                            <div class="ser-icon">
+                                <span class="fa fa-check"></span>
+                            </div>
+                            <!-- .Icon ends here -->
+                            <div class="service-content">
+                                <h4>Sagittis Lacus</h4>
+                                <p class="serp">
+                                    Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
+                                </p>
+                            </div>
+                            <!-- .Service-content ends here -->
+                        </div>
+                        <!-- .Services-box ends here -->
+                    </div>
+                    <!-- .Col ends here -->
+                </div>
+                <!-- .Row ends here -->
+                <!-- .Container ends here -->
+            </div>
+            <!-- .Services ends here -->
+
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-        <div class="social-icons">
-          <a href="#">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
+    </section>
+    <!-- //services -->
+    <!-- experience -->
+    <section class="experience py-5" id="experience">
+        <div class="container py-lg-5 py-3">
+            <h3 class="title"><span>My</span> Experience</h3>
+            <div class="row exp-grids mt-lg-5 mt-4">
+                <div class="col-lg-4 col-md-6">
+                    <img src="images/n1.jpg" alt=" " class="img-fluid" />
+                    <div class="exp wthree">
+                        <span>2007 - 2010</span>
+                        <h4> Web Designer </h4>
+                        <div class="clearfix"></div>
+                        <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <img src="images/n2.jpg" alt=" " class="img-fluid" />
+                    <div class="exp wthree">
+                        <span>2010 - 2012</span>
+                        <h4>App Developer </h4>
+                        <div class="clearfix"></div>
+                        <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+                    <img src="images/n3.jpg" alt=" " class="img-fluid" />
+                    <div class="exp wthree">
+                        <span>2012 - 2014</span>
+                        <h4>Web Developer </h4>
+                        <div class="clearfix"></div>
+                        <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+    <!-- //experience -->
+    <!-- mid -->
+    <div class="mid py-lg-5 py-5 text-center" id="mid">
+        <div class="container py-lg-5 py-3">
+            <h5 class="w3ls-title text-white">Learn. Create. Impress.</h5>
+            <p>Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor. Vestibulum at dui nunc. Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus.</p>
+            <div class="d-flex justify-content-center mt-3">
+                <a href="#gallery" class="text-capitalize mr-2 work btn scroll">My works <span class="fa fa-photo" aria-hidden="true"></span></a>
+                <a href="#contact" class="text-capitalize hire btn scroll">Hire Me <span class="fa fa-male" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </div>
+    <!-- //mid -->
+    <!-- Gallery -->
+    <section class="gallery py-5" id="gallery">
+        <div class="container py-lg-5 py-3">
+            <h3 class="title"><span>View My</span>Stunning Projects</h3>
+            <div class="row news-grids mt-lg-5 mt-4 text-center">
+                <div class="col-md-4 gal-img">
+                    <a href="#gal1"><img src="images/2.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal2"><img src="images/3.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal3"><img src="images/4.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal4"><img src="images/5.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal5"><img src="images/6.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal6"><img src="images/7.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal7"><img src="images/8.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal8"><img src="images/9.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 gal-img">
+                    <a href="#gal9"><img src="images/1.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+        <!-- popup-->
+        <div id="gal1" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/2.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+
+        <!-- popup-->
+        <div id="gal2" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/3.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal3" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/4.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup3 -->
+        <!-- popup-->
+        <div id="gal4" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/5.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal5" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/6.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal6" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/7.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal7" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/8.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal8" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/9.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal9" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/1.jpg" alt="Popup Image" class="img-fluid" />
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+
     </section>
 
-    <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="game">
-      <div class="w-100">
-        <h2 class="mb-5">游戏开发</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">霹雳小组：狼战士</h3>
-            <div class="subheading mb-3">一个硬核拟真的FPS射击游戏</div>
-            <p>开发该游戏源于对FPS游戏的热爱和对FPS鼻祖《霹雳小组》的喜欢。但因为种种原因，《霹雳小组》这个游戏再也没有系列作品了（Ready Or Not?）</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2019.1 - 现在</span>
-          </div>
+    <!-- blog -->
+    <section class="blog py-5" id="blog">
+        <div class="container py-lg-5 py-3">
+            <h3 class="title"><span>Read Our</span> Latest Blogs</h3>
+            <div class="row blog-grids mt-lg-5 mt-4">
+                <div class="col-lg-7">
+                    <h4 class="left-grid-blog">I write beautiful things</h4>
+                </div>
+            </div>
+            <div class="row mt-lg-5 mt-3">
+                <div class="col-lg-4 col-md-6 w3ls">
+                    <div class="blog-grid1">
+                        <span>25th  March</span>
+                        <h4>Website Design</h4>
+                        <p>Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor......</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 w3ls mt-md-0 mt-3">
+                    <div class="blog-grid1">
+                        <span>25th  March</span>
+                        <h4>Mobile Apps </h4>
+                        <p>Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor......</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-3 w3ls">
+                    <div class="blog-grid1">
+                        <span>25th  March</span>
+                        <h4>Web Development </h4>
+                        <p>Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor......</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Junior Web Designer</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
-          </div>
-        </div>
-
-      </div>
-
     </section>
+    <!-- //blog -->
+    <!-- gallery -->
+    <!--/testimonials -->
+    <section class="testimonials py-5" id="testimonials">
+        <div class="container py-lg-5 p-3">
+            <div class="inner-sec-w3ls-pyt speak">
+                <h3 class="title"><span>What’s our</span> Client Say about Me</h3>
+                <div class="row mt-lg-5 mt-4">
 
-    <hr class="m-0">
+                    <div class="col-lg-6 test-grid text-left">
+                        <div class="row">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+                            <div class="col-md-4 test-img">
+                                <img src="images/te1.jpg" class="img-fluid" alt="user-image">
+                            </div>
+                            <div class="col-md-8 test-info">
+                                <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Sub Title</span> Mariana Noe</h3>
+                                <p>Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.</p>
+                                <div class="social mt-4">
+                                    <ul>
+                                        <li><a href="#"><span class="fa mr-2 fa-facebook"></span></a></li>
+                                        <li><a href="#"><span class="fa mr-2 fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fa mr-2 fa-vk"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 test-grid text-left">
+                        <div class="row">
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-        </ul>
+                            <div class="col-md-4 test-img">
+                                <img src="images/te2.jpg" class="img-fluid" alt="user-image">
+                            </div>
+                            <div class="col-md-8 test-info">
+                                <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Sub Title</span> Mariana Noe</h3>
+                                <p>Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.</p>
+                                <div class="social mt-4">
+                                    <ul>
+                                        <li><a href="#"><span class="fa mr-2 fa-facebook"></span></a></li>
+                                        <li><a href="#"><span class="fa mr-2 fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fa mr-2 fa-vk"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div>
-    </section>
 
-    <hr class="m-0">
-
-	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="tools">
-      <div class="w-100">
-        <h2 class="mb-5">工具</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">TWEEN工具</h3>
-            <div class="subheading mb-3"></div>
-            <div>可视化Tween过程</div>
-            <p><a href="tween.html">进入</a></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary"></span>
-          </div>
+            </div>
         </div>
+    </section>
+    <!--//testmonials -->
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
-          </div>
+    <!-- contact -->
+    <section class="contact py-5" id="contact">
+        <div class="container py-lg-5 py-3">
+            <h3 class="title"><span>Get In</span> Touch With Us.</h3>
+            <div class="row contact-grids mt-lg-5 mt-4">
+                <div class="col-lg-5 contact-left">
+                    <h4 class="mb-4">Address Info</h4>
+                    <div class="row">
+                        <div class="col-1 pr-0 icon">
+                            <span class="fa fa-map-marker" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-11">
+                            <p>24H Main Block, 4th cross, California,</p>
+                            <p> California - 94203</p>
+                        </div>
+                        <div class="col-1 pr-0 icon my-2">
+                            <span class="fa fa-phone" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-11 my-2">
+                            <p> +112 367 896 2449</p>
+                        </div>
+                        <div class="col-1 pr-0 icon">
+                            <span class="fa fa-envelope-open" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-11">
+                            <p><a href="mailto:example@email.com"> mail@example.com</a></p>
+                        </div>
+                        <div class="map col-sm-11 mt-4">
+                            <iframe src=""></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mt-lg-0 mt-5 contact-right">
+                    <h4 class="mb-4">Get In Touch</h4>
+                    <form action="#" method="post">
+                        <label><span class="fa mr-2 fa-user" aria-hidden="true"></span> Name</label>
+                        <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+                        <div class="clearfix"></div>
+                        <label><span class="fa mr-2 fa-envelope-open" aria-hidden="true"></span>Email</label>
+                        <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                        <div class="clearfix"></div>
+                        <label><span class="fa mr-2 fa-phone" aria-hidden="true"></span>Phone</label>
+                        <input type="text" name="Phone" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
+                        <div class="clearfix"></div>
+                        <label><span class="fa mr-2 fa-edit" aria-hidden="true"></span>Message</label>
+                        <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required>Message...</textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </div>
-
-      </div>
     </section>
-    
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
-      </div>
-    </section>
-
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+    <!-- //contact -->
+    <!-- footer -->
+    <footer class="py-5 text-center">
+        <div class="container">
+            <div class="agileinfo-grids">
+                <div class="agile-grid-left agile-grid-right text-center">
+                    <div class="social mb-4">
+                        <ul>
+                            <li><a href="#"><span class="fa mr-2 fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa mr-2 fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa mr-2 fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa mr-2 fa-pinterest"></span></a></li>
+                            <li><a href="#"><span class="fa mr-2 fa-vk"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center mb-4">
+                <p>Copyright &copy; 2019.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+            </div>
+            <a href="#home" class="move-top scroll"><span class="fa fa-angle-double-up" aria-hidden="true"></span></a>
+        </div>
+    </footer>
+    <!-- //footer -->
 
 </body>
 

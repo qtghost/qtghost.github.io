@@ -1,1 +1,0 @@
-# qtghost.github.io
