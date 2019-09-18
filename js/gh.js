@@ -1,19 +1,33 @@
 (function () {
+	
+	let url = "https://api.github.com/projects/3211436/columns";
+	
+	var token = getQueryVariable("code");
+	
     window.onload = function () {
         setTimeout(function () {
             StartGetInfo();
         }, 1 * 1000);
     }
 
-    let url = "https://api.github.com/projects/3211436/columns";
-    let token = "?access_token=e1643d3c12c5264ec69c8fa18cfd64b2b7d78bd1";
+    
 
     let todoID = "ToDo";
     let progressID = "Progress";
     let doneID = "Done";
 
     let filler = "Config";
-
+	
+	function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
     function StartGetProjectInfo() {
         let xhr = new XMLHttpRequest();
         xhr.open("GET", "https://api.github.com/projects/3211436" + token, true);
