@@ -6,7 +6,7 @@
     }
 
     let url = "https://api.github.com/projects/3211436/columns";
-    let token = "?access_token=0b990b4700bfdfb0a7c2dd5bc6a0310c3cd3b8f4";
+    let token = "?access_token=e1643d3c12c5264ec69c8fa18cfd64b2b7d78bd1";
 
     let todoID = "ToDo";
     let progressID = "Progress";
