@@ -2,7 +2,7 @@
 	
 	let url = "https://api.github.com/projects/3211436/columns";
 	
-	var token = "?"+getQueryVariable("code");
+	var token = "?access_token="+getQueryVariable("code");
 	
     window.onload = function () {
         setTimeout(function () {
